@@ -16,7 +16,7 @@ interface ApiErrorResponse {
  * Configuración del entorno para la API
  */
 export const API_CONFIG = {
-  BASE_URL: 'http://ec2-13-219-75-203.compute-1.amazonaws.com',
+  BASE_URL: 'http://ec2-34-201-245-110.compute-1.amazonaws.com',
   TIMEOUT: 60000, // 30 segundos
 };
 
