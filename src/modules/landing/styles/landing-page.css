@@ -1,0 +1,57 @@
+.ovelary-container {
+}
+.landing-overlay {
+  mask-image: linear-gradient(black 80%, transparent);
+}
+
+.carrousel-wrapper {
+  transition-timing-function: linear !important;
+}
+
+.sofia-big-concept {
+  filter: drop-shadow(1px 1px 10px #f3f3f3f3);
+}
+
+.sofia-big-concept {
+  animation: sofiaMoves 2s ease-in-out alternate infinite;
+}
+.separator-line.left {
+  background-image: linear-gradient(to right, #1e1e1e, #fbbf24);
+}
+.separator-line.rigth {
+  background-image: linear-gradient(to right, #fbbf24, #1e1e1e);
+}
+
+.separator-line.top,
+.separator-line.bottom {
+  background-image: linear-gradient(
+    to right,
+    #1e1e1e,
+    #fbbf24,
+    #a4d8e6,
+    #1e1e1e
+  );
+}
+
+@keyframes sofiaMoves {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+.shine-border{
+    animation: shine 14s infinite linear;
+}
+@keyframes shine {
+    0% {
+        background-position: 0% 0%;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}

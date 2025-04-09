@@ -1,0 +1,19 @@
+.dialog-alert-content {
+  animation: shadow-drop-center 1s cubic-bezier(0.86, 0, 0.07, 1) infinite
+    alternate both;
+}
+
+.drawer-details-table::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(207, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(207, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 24px 12px rgba(207, 0, 0, 0.35);
+    box-shadow: 0 0 24px 12px rgba(207, 0, 0, 0.35);
+  }
+}
